@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginBanco.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Login</title>
+    <link rel="icon" 
+      href="img/5087579.png" />
+</head>
+
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Você pode mudar seu futuro<br>Faça parte do nosso time<br>Alpha Bank</h1>
+            <img class="left-login-image" src="img/Ambassador-bro.png" alt="Imagem">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>Login</h1>
+                <div class="textfield">
+                    <label for="Usuario">Conta</label>
+                    <input type="text" name="conta" id="conta" placeholder="Digite sua conta">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                </div>
+                <button class="btn-login" onclick="login()">Login</button>
+            </div>
+        </div>
+    </div>
+    <script src="loginBanco.js"></script>
+</body>
+
+</html>

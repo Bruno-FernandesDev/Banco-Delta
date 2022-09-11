@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.header {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background: deeppink;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    margin-left: 15px;
+    color: white;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    color: white;
+}
+
+.btn {
+    margin: 0;
+    border: 0;
+    padding: 7px;
+    margin-left: 5px;
+    border-radius: 8px;
+    color: deeppink;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+}
+
+.btn-1 {
+    margin: 0;
+    border: 0;
+    padding: 7px 14px;
+    margin-left: 5px;
+    border-radius: 8px;
+    color: deeppink;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+
+}
+
+.btn-1:hover {
+    background: blueviolet;
+    color: white;
+}
+
+.btn:hover {
+    background: blueviolet;
+    color: white;
+}
+
+h1 {
+    font-size: 2.1rem;
+    font-family: 'Black Han Sans', Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: indigo;
+
+}
+
+p {
+    margin-left: 90px;
+    color: hotpink;
+    font-weight: bold;
+    font-size: 1.4rem;
+
+}
+
+a:hover {
+    color: blueviolet;
+    background: blueviolet;
+
+
+}
+.section {
+    margin: 0;
+    padding: 220px;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    
+
+
+}
+
+.button {
+    margin: 0;
+    border: 0;
+    padding: 14px 28px;
+    margin-left: 300px;
+    border-radius: 8px;
+    color: deeppink;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+
+
+}
+
+.button:hover {
+    background: blueviolet;
+    color: white;
+}
